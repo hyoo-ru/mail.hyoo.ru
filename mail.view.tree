@@ -1,0 +1,60 @@
+$hyoo_mail $mol_book2
+	plugins /
+		<= Theme $mol_theme_auto
+	pages /
+		<= Folders $mol_page
+			title \Folders
+			tools /
+				<= Source_link $mol_link_source
+					uri \https://github.com/hyoo-ru/mail.hyoo.ru
+				<= Lights $mol_lights_toggle
+			body /
+				<= Folders_links $mol_list
+					rows <= folders_links /$mol_view
+	Folder_page!id $mol_page
+		title <= folder_title!id \
+		tools /
+			<= Folder_close $mol_link
+				arg * folder null
+				sub /
+					<= Folder_close_icon $mol_icon_cross
+		body /
+			<= Folder_mails!id $mol_list
+				rows <= folder_mails!id /$mol_view
+	Mail_page!id $mol_page
+		title <= mail_subject!id \
+		tools /
+			<= Mail_close $mol_link
+				arg * mail null
+				sub /
+					<= Mail_close_icon $mol_icon_cross
+		body /
+			<= Mail_head!id $mol_row
+				sub <= mail_fields!id /
+					<= Mail_from!id $mol_labeler
+						title \From
+						content /
+							<= mail_from!id \
+					<= Mail_to!id $mol_labeler
+						title \To
+						content /
+							<= mail_to!id \
+					<= Mail_copy!id $mol_labeler
+						title \Copy To
+						content /
+							<= mail_copy!id \
+			<= Mail_body!id $mol_html_view
+				html <= mail_body!id \
+			<= Reply $mol_row
+				sub /
+					<= Reply_message $mol_textarea
+						hint \Reply..
+					<= Reply_send $mol_button_major
+						title \Send
+						enabled <= mail_sen_enabled false
+	Folder_link!id $mol_link
+		title <= folder_title!id \
+		arg <= folder_arg!id *
+	Mail_link!id $mol_link
+		title <= mail_subject!id \
+		arg <= mail_arg!id *

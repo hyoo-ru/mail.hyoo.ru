@@ -1,0 +1,147 @@
+*
+	folder *
+		inbox /
+			\qwe
+			\asd
+			\zxc
+		archive /
+			\rty
+			\fgh
+			\vbn
+		outbox /
+			\uio
+			\jkl
+			\mnb
+		spam /
+			\qaz
+			\wsx
+			\edc
+	mail *
+		qwe *
+			from \john@example.com
+			to /
+				\jin@example.com
+			cc /
+				\mayor@example.com
+			subject \Enlarge your $mol!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		asd *
+			from \john@example.com
+			to /
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Hey, guy, have you some $mol?
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		zxc *
+			from \john@example.com
+			to /
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \$mol is want you!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		rty *
+			from \john@example.com
+			to /
+				\jin@example.com
+			cc /
+				\mayor@example.com
+			subject \What if $mol beat all others?
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		fgh *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Let's $mol!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		vbn *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Do you know Molecular-$man?
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		uio *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Good job! Let's fix it!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		jkl *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Pay for $mol!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		mnb *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Your salary is too $mol? We hire!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		qaz *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \Try $mol for free!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		wsx *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \$mol but $powerfull!
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
+		edc *
+			from \john@example.com
+			to /
+				\jin@example.com
+				\jam@example.com
+			cc /
+				\mayor@example.com
+			subject \$mol)) lol))
+			body \
+				\<p>Hi, I'm John. Nice to meet you!</p>
+				\<p>Can you <b>send me</b> a few money?</p>
