@@ -6805,7 +6805,8 @@ var $;
         Folder_close() {
             const obj = new this.$.$mol_link();
             obj.arg = () => ({
-                folder: null
+                folder: null,
+                mail: null
             });
             obj.sub = () => [
                 this.Folder_close_icon()
