@@ -15,7 +15,9 @@ $hyoo_mail $mol_book2
 		title <= folder_title!id \
 		tools /
 			<= Folder_close $mol_link
-				arg * folder null
+				arg *
+					folder null
+					mail null
 				sub /
 					<= Folder_close_icon $mol_icon_cross
 		body /
