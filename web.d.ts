@@ -810,6 +810,7 @@ declare namespace $.$$ {
         _event_scroll_timer(next?: $mol_after_timeout | null): $mol_after_timeout | null | undefined;
         event_scroll(next?: Event): void;
         minimal_height(): number;
+        minimal_width(): number;
     }
 }
 
@@ -1501,6 +1502,7 @@ declare namespace $.$$ {
         maximal_width(): number;
         width_limit(): number;
         minimal_width(): number;
+        row_width(): number;
         minimal_height(): number;
     }
 }
@@ -1511,8 +1513,10 @@ declare namespace $ {
         field(): {
             src: string;
             alt: string;
+            loading: string;
         };
         uri(): string;
+        loading(): string;
     }
 }
 
@@ -1705,7 +1709,7 @@ declare namespace $.$$ {
         dom(): HTMLElement;
         sub(): $mol_view[];
         content(node: Node): $mol_view[];
-        views(node: Node): $mol_view[] | $mol_paragraph[] | $mol_link_iconed[];
+        views(node: Node): $mol_view[] | $mol_html_view_heading[] | $mol_paragraph[] | $mol_link_iconed[];
         text(node: Node): string;
         safe_link(uri: string): string;
         link_uri(node: HTMLAnchorElement): string;
