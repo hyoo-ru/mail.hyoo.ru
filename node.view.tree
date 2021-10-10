@@ -158,7 +158,7 @@ $mol_icon_cross $mol_icon path \M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12
 $mol_labeler $mol_list
 	rows /
 		<= Label $mol_view
-			minimal_height 24
+			minimal_height 16
 			sub <= label /$mol_view_content
 				<= title
 		<= Content $mol_view
