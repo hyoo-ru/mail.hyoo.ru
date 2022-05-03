@@ -1683,7 +1683,7 @@ declare namespace $ {
     class $mol_html_view extends $mol_list {
         html(): string;
         dom(): any;
-        safe_link(uri: any): string;
+        safe_link(id: any): string;
         xss_uri(): string;
         Heading(id: any): $mol_html_view_heading;
         Paragraph(id: any): $$.$mol_paragraph;
@@ -2104,7 +2104,7 @@ declare namespace $ {
     class $mol_grid extends $mol_view {
         row_height(): number;
         row_ids(): readonly string[][];
-        row_id(index: any): any;
+        row_id(id: any): any;
         col_ids(): readonly any[];
         records(): {};
         record(id: any): any;
@@ -2358,7 +2358,7 @@ declare namespace $ {
         length_max(): number;
         selection(val?: any): readonly number[];
         Edit(): $mol_textarea_edit;
-        row_numb(index: any): number;
+        row_numb(id: any): number;
         highlight(): string;
         View(): $$.$mol_text_code;
     }
