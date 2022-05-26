@@ -8334,30 +8334,6 @@ var $;
 "use strict";
 var $;
 (function ($) {
-    function $mol_deprecated(message) {
-        return (host, field, descr) => {
-            const value = descr.value;
-            let warned = false;
-            descr.value = function $mol_deprecated_wrapper(...args) {
-                if (!warned) {
-                    $$.$mol_log3_warn({
-                        place: `${host.constructor.name}::${field}`,
-                        message: `Deprecated`,
-                        hint: message,
-                    });
-                    warned = true;
-                }
-                return value.call(this, ...args);
-            };
-        };
-    }
-    $.$mol_deprecated = $mol_deprecated;
-})($ || ($ = {}));
-//mol/deprecated/deprecated.ts
-;
-"use strict";
-var $;
-(function ($) {
     class $mol_tree2 extends Object {
         type;
         value;
@@ -8509,9 +8485,6 @@ var $;
             return this.span.error(`${message}\n${this.clone([])}`, Class);
         }
     }
-    __decorate([
-        $mol_deprecated('Use $mol_tree2_from_string')
-    ], $mol_tree2, "fromString", null);
     $.$mol_tree2 = $mol_tree2;
     class $mol_tree2_empty extends $mol_tree2 {
         constructor() {
