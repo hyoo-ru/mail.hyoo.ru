@@ -142,6 +142,7 @@
     "$mol_unicode",
     "$mol_dom_parse",
     "$mol_textarea",
+    "$mol_stack",
     "$mol_text_code",
     "$mol_text",
     "$mol_grid",
