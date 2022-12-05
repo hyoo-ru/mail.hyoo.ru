@@ -193,6 +193,6 @@
   "dependencies": {
     "jsdom": "*",
     "chokidar": "*",
-    "node-fetch": "*"
+    "undici": "*"
   }
 }
