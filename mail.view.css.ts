@@ -12,6 +12,10 @@ namespace $.$$ {
 			
 		},
 		
+		Folders_links: {
+			padding: $mol_gap.block,
+		},
+		
 		Folder_page: {
 			
 			flex: {
@@ -35,6 +39,10 @@ namespace $.$$ {
 				},
 			},
 			
+		},
+		
+		Folder_mails: {
+			padding: $mol_gap.block,
 		},
 		
 		Mail_head: {
