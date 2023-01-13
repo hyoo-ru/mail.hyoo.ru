@@ -38,26 +38,11 @@ namespace $.$$ {
 		},
 		
 		Mail_head: {
-			margin: $mol_gap.block,
 			justifyContent: 'space-between',
 		},
 		
-		Mail_from: {
-			Label: {
-				padding: 0
-			},
-		},
-		
-		Mail_to: {
-			Label: {
-				padding: 0
-			},
-		},
-		
-		Mail_copy: {
-			Label: {
-				padding: 0
-			},
+		Mail_body: {
+			padding: $mol_gap.block,
 		},
 		
 		Reply: {
