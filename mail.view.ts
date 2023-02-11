@@ -20,7 +20,7 @@ namespace $.$$ {
 			const text = this.$.$mol_fetch.text( 'hyoo/mail/data/data.json.tree' )
 			const tree = this.$.$mol_tree2_from_string( text )
 			const json = this.$.$mol_tree2_to_json( tree.kids[0] )
-			const data = Data( json )
+			const data = Data( json as any )
 			return data
 		}
 		
@@ -46,7 +46,7 @@ namespace $.$$ {
 			return Object.keys( this.data().folder ).map( id => this.Folder_link( id ) )
 		}
 		
-		@ $mol_mem
+		@ $mol_mem_key
 		folder_mails( folder: string ) {
 			return this.data().folder[ folder ].map( mail => this.Mail_link( mail ) )
 		}
