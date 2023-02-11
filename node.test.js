@@ -8480,9 +8480,6 @@ var $;
                     basis: rem(20),
                 },
             },
-            Folders_links: {
-                padding: $mol_gap.block,
-            },
             Folder_page: {
                 flex: {
                     basis: rem(20),
@@ -8500,9 +8497,6 @@ var $;
                         basis: 'auto',
                     },
                 },
-            },
-            Folder_mails: {
-                padding: $mol_gap.block,
             },
             Mail_head: {
                 justifyContent: 'space-between',
