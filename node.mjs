@@ -8856,4 +8856,5 @@ var $;
 })($ || ($ = {}));
 //hyoo/mail/mail.view.css.ts
 
+export default $
 //# sourceMappingURL=node.js.map

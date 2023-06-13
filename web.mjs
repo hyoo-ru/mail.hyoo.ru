@@ -8657,4 +8657,5 @@ var $;
 })($ || ($ = {}));
 //hyoo/mail/mail.view.css.ts
 
+export default $
 //# sourceMappingURL=web.js.map
