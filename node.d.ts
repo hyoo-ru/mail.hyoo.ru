@@ -2229,7 +2229,7 @@ declare namespace $ {
 declare namespace $.$$ {
     class $mol_hotkey extends $.$mol_hotkey {
         key(): {
-            [x: number]: ((event: KeyboardEvent) => void) | undefined;
+            readonly [x: number]: ((event: KeyboardEvent) => void) | undefined;
             readonly backspace?: ((event: KeyboardEvent) => void) | undefined;
             readonly tab?: ((event: KeyboardEvent) => void) | undefined;
             readonly enter?: ((event: KeyboardEvent) => void) | undefined;
@@ -2553,18 +2553,14 @@ declare namespace $ {
 declare namespace $.$$ {
     class $hyoo_mail extends $.$hyoo_mail {
         data(): Readonly<{
-            folder: {
-                [x: string]: readonly string[];
-            };
-            mail: {
-                [x: string]: Readonly<{
-                    from: string;
-                    to: readonly string[];
-                    cc: readonly string[];
-                    subject: string;
-                    body: string;
-                }>;
-            };
+            folder: Readonly<Record<string, readonly string[]>>;
+            mail: Readonly<Record<string, Readonly<{
+                from: string;
+                to: readonly string[];
+                cc: readonly string[];
+                subject: string;
+                body: string;
+            }>>>;
         }>;
         folder(next?: string): string | null;
         mail(next?: string): string | null;
