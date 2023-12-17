@@ -136,11 +136,6 @@
     "$mol_charset_encoding",
     "$mol_charset_encode",
     "$mol_compare_array",
-    "$hyoo_lingua_translate",
-    "$hyoo_lingua",
-    "$mol_huggingface",
-    "$mol_fetch",
-    "$mol_dom_parse",
     "$mol_icon_script_text",
     "$mol_icon_script",
     "$mol_icon",
@@ -178,6 +173,7 @@
     "$mol_type_equals",
     "$mol_type_intersect",
     "$mol_unicode",
+    "$mol_dom_parse",
     "$mol_textarea",
     "$mol_stack",
     "$mol_text_code",
@@ -207,6 +203,7 @@
     "$mol_diff",
     "$mol_data_array",
     "$mol_data_dict",
+    "$mol_fetch",
     "$mol_tree2_to_json"
   ],
   "dependencies": {
