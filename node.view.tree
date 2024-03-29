@@ -464,6 +464,7 @@ $mol_textarea_edit $mol_string
 		scrollTop 0
 
 $mol_button_major $mol_button_minor
+	theme \$mol_theme_base
 
 $hyoo_mail $mol_book2
 	plugins /
