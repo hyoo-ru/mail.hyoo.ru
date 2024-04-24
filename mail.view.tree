@@ -19,7 +19,7 @@ $hyoo_mail $mol_book2
 					folder null
 					mail null
 				sub /
-					<= Folder_close_icon $mol_icon_cross
+					<= Folder_close_icon $mol_icon_close
 		body /
 			<= Folder_mails!id $mol_list
 				rows <= folder_mails!id /$mol_view
@@ -29,7 +29,7 @@ $hyoo_mail $mol_book2
 			<= Mail_close $mol_link
 				arg * mail null
 				sub /
-					<= Mail_close_icon $mol_icon_cross
+					<= Mail_close_icon $mol_icon_close
 		body /
 			<= Mail_head!id $mol_row
 				sub <= mail_fields!id /
